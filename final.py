@@ -6,6 +6,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 
+
 # 1. Set path to dataset
 DATASET_DIR = r"C:\Users\USER\OneDrive\Desktop\edunet_internship\TrashType_Image_Dataset"
 IMAGE_SIZE = (64, 64)
@@ -43,6 +44,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # 5. Train a Support Vector Machine (SVM) classifier
 model = SVC(kernel='rbf', gamma='scale', C=10, random_state=42)
 model.fit(X_train, y_train)
+
+import joblib
+
+joblib.dump(model, "svm_model.pkl")
 
 # 6. Predict and evaluate
 y_pred = model.predict(X_test)

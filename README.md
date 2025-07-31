@@ -107,7 +107,11 @@ Feel free to explore, fork, or star this project.
 
 🔗 GitHub: [github.com/Rushmitha1422](https://github.com/Rushmitha1422)  
 📫 LinkedIn: [linkedin.com/in/rushmitha-ubbara](https://www.linkedin.com/in/rushmithareddyubbara)  
-🌐 App (Coming Soon): [Streamlit App Deployment Link]
+
+## 🚀 Live Demo
+
+Try out the Garbage Classification Streamlit App here:  
+👉 [Click to Launch App](https://garbage-classification-tool.streamlit.app/)
 
 ---
 
